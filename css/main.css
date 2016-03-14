@@ -114,18 +114,14 @@ blockquote {
   float: left;
   font-size: 1.5rem;
   border-top: 3px solid #333;
-  padding-top: 1em;
   border-bottom: 3px solid #333;
-  padding-bottom: 1em;
+  padding: 0.2em 0 0.2em 0;
   width: 300px;
-  margin: 0;
+  margin: 0.5em 0.75em 0.5em -6em;
+  text-align: right;
 }
 
 p {
   padding: 0;
-  margin: 0;
-}
-
-.wrapper {
   margin: 0;
 }
