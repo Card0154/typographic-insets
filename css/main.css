@@ -95,6 +95,9 @@ figure {
   padding-bottom: 1em;
   width: 300px;
   float: right;
+  margin-right: -6em;
+  margin-left: 0.75em;
+  margin-top: 0;
 }
 
 figcaption {
@@ -104,10 +107,13 @@ figcaption {
 main > p:first-child::first-letter {
   font-size: 5rem;
   font-style: normal;
-  background-color: #333;
-  color: white;
-  padding: 0.1em;
-  margin: 0;
+  background-color: #666;
+  color: #fff;
+  padding: 1rem;
+  margin: 0 0.1em 0.1em -0.5em;
+  float: left;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
 }
 
 blockquote {
